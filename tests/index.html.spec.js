@@ -1,5 +1,5 @@
 // @ts-check
-const { test, expect } = require("@playwright/test");
+const { test, expect } = require('@playwright/test');
 
 test.describe("index.html", () => {
   test("deve ter o charset em UTF-8 no meta dentro do head", async ({
